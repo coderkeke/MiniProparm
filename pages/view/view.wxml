@@ -1,0 +1,7 @@
+<!--pages/view/view.wxml-->
+<view>
+  <text>哈哈</text>
+  <button>嘻嘻嘻</button>
+</view>
+
+<view class="box1" hover-class="hoverClass" hover-start-time="{{1000}}" hover-stay-time="1000">状态</view>

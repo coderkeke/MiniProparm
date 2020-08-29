@@ -1,0 +1,11 @@
+<!--pages/image/image.wxml-->
+<text>pages/image/image.wxml</text>
+<image src="https://up.enterdesk.com/edpic/c7/ef/4c/c7ef4c5ffb169695ddf4d6ae5ba49f45.jpg" />
+
+<button bindtap="handleChooseAlbum">选中图片</button>
+
+<view wx:for="{{imagePathList}}" wx:key="item">
+  <image src="{{item}}"></image>
+</view>
+
+<map longitude="113.75" latitude="23.05"></map>

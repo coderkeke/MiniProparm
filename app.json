@@ -1,5 +1,7 @@
 {
   "pages": [
+    "pages/image/image",
+    "pages/view/view",
     "pages/home/home",
     "pages/about/about",
     "pages/profile/profile",
