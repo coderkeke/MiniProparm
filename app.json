@@ -1,9 +1,11 @@
 {
   "pages": [
+    "pages/button/button",
     "pages/home/home",
     "pages/about/about",
     "pages/profile/profile",
-    "pages/category/category"
+    "pages/category/category",
+    "pages/text/text"
   ],
   "window": {
     "navigationBarBackgroundColor": "#ff5777",

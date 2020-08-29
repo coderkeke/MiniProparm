@@ -1,0 +1,10 @@
+<!--pages/text/text.wxml-->
+<text>Hello World \n</text>
+<text>你好小程序 \n</text>
+
+<text selectable="{{true}}">Hello Coderkeke</text>
+<text space="nbsp">Hello Coderkeke\n</text>
+<text space="emsp">Hello Coderkeke\n</text>
+<text space="ensp">Hello Coderkeke\n</text>
+
+<text decode>5 &gt;3</text>

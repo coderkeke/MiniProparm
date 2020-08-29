@@ -1,0 +1,10 @@
+<!--pages/button/button.wxml-->
+<text>pages/button/button.wxml \n</text>
+
+<button size="mini">按钮</button>
+<button>按钮</button>
+
+<button size="mini" type="primary">按钮</button>
+<button size="mini" type="default">按钮</button>
+<button size="mini" type="warn">按钮</button>
+<button size="mini" plain>按钮</button>
