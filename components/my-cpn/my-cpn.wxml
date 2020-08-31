@@ -1,0 +1,10 @@
+<!--components/my-cpn/my-cpn.wxml-->
+<view class="title titleclass">{{title}}</view>
+<cpn1/>
+<slot name="slot1"/>
+<slot name="slot2"/>
+<slot name="slot3"/>
+<view class="content">我是自定义组件的内容</view>
+<button data-age="18" bind:tap="handleIncrement">+1</button>
+<view>{{counter}}</view>
+

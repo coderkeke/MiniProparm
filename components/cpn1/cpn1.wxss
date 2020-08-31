@@ -1,0 +1,7 @@
+/* components/cpn1/cpn1.wxss */
+
+.title {
+  width: 300rpx;
+  height: 50rpx;
+  background-color: rebeccapurple;
+}

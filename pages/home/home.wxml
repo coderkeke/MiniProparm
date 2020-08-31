@@ -1,1 +1,12 @@
 <!--pages/home/home.wxml-->
+<my-cpn title="哈哈哈" titleclass="red" />
+<my-cpn title="呵呵呵" titleclass="green" />
+<my-cpn title="嘻嘻嘻" />
+<my-cpn bind:increment="handleIncrement" />
+<view>{{counter}}</view>
+
+<my-cpn>
+  <slider slot="slot1" value="50"></slider>
+  <view slot="slot2">我是slot2</view>
+  <view slot="slot3">我是slot3</view>
+</my-cpn>
