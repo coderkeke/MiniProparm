@@ -1,1 +1,4 @@
 <!--pages/home/home.wxml-->
+<button bind:tap="handleShowToast">showToast</button>
+
+<button open-type="share">分享</button>
