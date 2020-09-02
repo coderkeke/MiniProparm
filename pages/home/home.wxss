@@ -1,1 +1,21 @@
 /* pages/home/home.wxss */
+
+.tab-control-box {
+  padding: 40rpx;
+}
+
+.split-line{
+  border-bottom: 12rpx solid rgba(58, 58, 58, 0.075);
+  margin-bottom: 20rpx;
+}
+
+.fixed{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 10rpx 5rpx 0 rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  z-index: 1;
+}
+

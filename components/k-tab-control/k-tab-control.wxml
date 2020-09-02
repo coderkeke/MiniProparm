@@ -1,0 +1,8 @@
+<!--components/k-tab-control/k-tab-control.wxml-->
+<view class="tab-control">
+  <block wx:for="{{list}}" wx:key="item">
+    <view bindtap="handleActive" data-current-index="{{index}}" class=" tab-control-item">
+      <text class="control-item-content {{currentIndex == index?'active':''}}">{{item}}</text>
+    </view>
+  </block>
+</view>

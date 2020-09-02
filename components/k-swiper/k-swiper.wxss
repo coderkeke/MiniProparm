@@ -1,0 +1,5 @@
+/* components/k-swiper/k-swiper.wxss */
+.swiper-item .item-image {
+  width: 100%;
+  height: 100%;
+}

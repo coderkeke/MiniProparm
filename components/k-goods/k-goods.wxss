@@ -1,0 +1,13 @@
+/* components/k-goods/k-goods.wxss */
+
+.goods {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.goods > .goods-item {
+  width: 48%;
+}
+

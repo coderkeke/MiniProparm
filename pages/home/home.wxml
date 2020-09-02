@@ -1,4 +1,25 @@
 <!--pages/home/home.wxml-->
-<button bind:tap="handleShowToast">showToast</button>
+<!-- 展示轮播图 -->
+<k-swiper list="{{banners}}" />
 
-<button open-type="share">分享</button>
+<!-- 推荐数据展示 -->
+<recommend list="{{recommend}}" bind:imageload="handleImageLoad"/>
+
+<!-- tab -->
+<view class="tab-control-box {{isTabFixed?'fixed':''}}">
+  <k-tab-control id='tab-control' bind:tabClick="handleTabClick" list="{{tabControl}}" />
+</view>
+
+<view wx:if="{{isTabFixed}}" class="tab-control-box">
+  <k-tab-control bind:tabClick="handleTabClick" list="{{tabControl}}" />
+</view>
+
+
+<view class="split-line"></view>
+
+<!-- 列表展示 -->
+<k-goods list="{{goods[currentType].list}}" />
+
+
+<!-- 回到顶部 -->
+<k-back-top wx:if="{{showBackTop}}"/>

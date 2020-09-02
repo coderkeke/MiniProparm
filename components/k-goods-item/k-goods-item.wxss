@@ -1,0 +1,13 @@
+/* components/k-goods-item/k-goods-item.wxss */
+
+.goods-item>.item-image {
+  width: 100%;
+}
+
+.title {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+

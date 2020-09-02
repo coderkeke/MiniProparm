@@ -1,4 +1,10 @@
 {
-  "usingComponents": {},
-  "navigationBarTitleText": "首页"
+  "usingComponents": {
+    "k-goods": "/components/k-goods/k-goods",
+    "k-back-top": "/components/k-back-top/k-back-top",
+    "k-swiper": "/components/k-swiper/k-swiper",
+    "k-tab-control": "/components/k-tab-control/k-tab-control",
+    "recommend":"./childCpns/recommend/recommend"
+  },
+  "navigationBarTitleText": "购物街"
 }
